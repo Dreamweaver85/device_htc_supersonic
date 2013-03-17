@@ -148,6 +148,6 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_HAS_NO_SELECT_BUTTON := 1
 
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_supersonic librecovery_ui_htc
-
+TARGET_PROVIDES_INIT_RC := true
 TARGET_RELEASETOOLS_EXTENSIONS := device/htc/common
 TARGET_PREBUILT_KERNEL := device/htc/supersonic/kernel
